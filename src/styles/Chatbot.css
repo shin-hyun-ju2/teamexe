@@ -1,0 +1,100 @@
+/* 湲곕낯 而⑦뀒�대꼫 �ㅽ��� */
+.chatbot-container {
+    width: 400px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+/* 硫붿떆吏� 由ъ뒪�� �ㅽ��� */
+.message-list {
+    height: 300px;
+    overflow-y: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* �ъ슜�� 硫붿떆吏� �ㅽ��� */
+.user-message {
+    background-color: #0078ff;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 5px 0;
+    max-width: 70%;
+    align-self: flex-end;
+    text-align: right;
+    position: relative;
+}
+
+/* �ъ슜�� 硫붿떆吏� 留먰뭾�� 瑗щ━ */
+/* .user-message::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: -10px;
+    width: 0;
+    height: 0;
+    border-left: 10px solid #0078ff;
+    border-top: 10px solid transparent;
+} */
+
+/* 梨쀫큸 硫붿떆吏� �ㅽ��� */
+.bot-message {
+    background-color: #f1f1f1;
+    color: #333;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 5px 0;
+    max-width: 70%;
+    align-self: flex-start;
+    text-align: left;
+    position: relative;
+}
+
+/* 梨쀫큸 硫붿떆吏� 留먰뭾�� 瑗щ━ */
+/* .bot-message::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    right: 0px;
+    width: 0;
+    height: 0;
+    border-right: 20px solid #dddddd;
+    border-top: 20px solid transparent;
+}
+ */
+/* �낅젰李� �ㅽ��� */
+.input-container {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+    border-top: 1px solid #ccc;
+}
+
+.input-container input {
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    padding: 5px;
+}
+
+.input-container button {
+    background-color: #0078ff;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
